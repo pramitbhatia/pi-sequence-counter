@@ -1,3 +1,15 @@
+'''
+
+In this algorithm we calculate the occurrence of all 2 digit
+combinations and store the counts in a nested (2D) list. The
+data can be accessed later by simply accessing the structure
+using the correct indices.
+
+This implementation is made keeping reusability in mind. For
+the fixed number of digits, we can access the counts easily.
+
+'''
+
 from profilehooks import timecall
 from math import pi,trunc
 
@@ -24,15 +36,3 @@ def func():
     
 if __name__ == '__main__':
     print(func())
-
-'''
-
-In this algorithm we calculate the occurrence of all 2 digit
-combinations and store the counts in a nested (2D) list. The
-data can be accessed later by simply accessing the structure
-using the correct indices.
-
-This implementation is made keeping reusability in mind. For
-the fixed number of digits, we can access the counts easily.
-
-'''
